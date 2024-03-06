@@ -22,7 +22,7 @@ jobs:
         run: npm ci
 
       - name: Build Docker image
-        run: docker build -t ${{ env.PROJECT_NAME }} .
+        run: docker build -t ghcr.io/lordsuperking/${{ env.PROJECT_NAME }} .
       - name: Login ghrc  
         run: docker login ghcr.io --username ${{ secrets.DOCKER_TOKEN_USERNAME }} --password ${{ secrets.DOCKER_TOKEN_PASSWORD }}
       - name: Push Docker Image  
