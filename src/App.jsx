@@ -8,7 +8,7 @@ function App() {
         {/* <div id="logo-img">
           <img src={logo} />
         </div> */}
-        <h1>Durch tradin zum Millionär</h1>
+        <h1>Kay</h1>
       </header>
     </>
   );
