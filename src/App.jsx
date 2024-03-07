@@ -8,7 +8,7 @@ function App() {
         {/* <div id="logo-img">
           <img src={logo} />
         </div> */}
-        <h1>Kay</h1>
+        <h1>Lauf Test</h1>
       </header>
     </>
   );
